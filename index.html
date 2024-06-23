@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AGE CALCULATOR</title>
+    <!-----------Font-Awesome --------->
+    <link rel="stylesheet" href="./assets/vendors/fonts/all.min.css" />
+    <!-------------JQuery-------------->
+    <script src="./assets/vendors/jquery/jquery-3.7.1.min.js"></script>
+    <!------------Bootstrap------------>
+    <link rel="stylesheet" href="./assets/vendors/bootstrap/bootstrap.min.css" />
+    <!------------Main-CSS------------->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+
+<body>
+    <div class="container-fluid text-light  py-5">
+        <div class="row  ms-5 mt-5 text-light">
+            <h1 class="fw-bold fs-1">JAVASCRIPT <br> <span>AGE CALCULATOR</span></h1>
+            <div class="card mt-3" style="width: 30rem;">
+                <div class="card-body">
+                    <div class="col-12">
+                        <label for="date" class="form-label"></label>
+                        <input type="date" class="form-control" id="date">
+                    </div>
+                    <div class="col-12 mt-3 mb-3">
+                        <button onclick="calc()" type="submit" class="btn btn-secondary">CALC AGE</button>
+                    </div>
+                </div>
+            
+            </div>
+            <p  class="fw-light text-light mt-3 fs-4" id="result"></p>
+
+        </div>
+    </div>
+    <!------------Bootstrap------------>
+    <script src="./assets/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-----------------JS----------------->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
